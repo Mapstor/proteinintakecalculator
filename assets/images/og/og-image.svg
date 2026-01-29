@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c"/>
+      <stop offset="100%" style="stop-color:#ea580c"/>
+    </linearGradient>
+    <!-- Decorative circles -->
+    <radialGradient id="circle1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:white;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative background circles -->
+  <circle cx="100" cy="100" r="200" fill="url(#circle1)"/>
+  <circle cx="1100" cy="530" r="250" fill="url(#circle1)"/>
+  <circle cx="900" cy="100" r="150" fill="url(#circle1)"/>
+
+  <!-- Large centered protein shaker icon -->
+  <g transform="translate(460, 115) scale(8)">
+    <path d="M16 2c-5 0-9 2.5-9 7v8c0 4.5 4 7 9 7s9-2.5 9-7v-8c0-4.5-4-7-9-7z" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="16" cy="9" rx="5" ry="3" stroke="white" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <!-- Simple white bar at bottom for branding -->
+  <rect x="0" y="550" width="1200" height="80" fill="white" fill-opacity="0.15"/>
+
+  <!-- Three protein dots decoration -->
+  <circle cx="560" cy="590" r="8" fill="white" fill-opacity="0.8"/>
+  <circle cx="600" cy="590" r="8" fill="white"/>
+  <circle cx="640" cy="590" r="8" fill="white" fill-opacity="0.8"/>
+</svg>

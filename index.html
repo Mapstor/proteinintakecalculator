@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protein Intake Calculator - How Much Protein Do I Need?</title>
+  <meta name="description" content="Free protein intake calculator. Find out how much protein you need daily for muscle building, weight loss, or general health based on your body and goals.">
+  <meta property="og:title" content="Protein Intake Calculator - How Much Protein Do I Need?">
+  <meta property="og:description" content="Free protein intake calculator. Find out how much protein you need daily for muscle building, weight loss, or general health.">
+  <meta property="og:image" content="https://proteinintakecalculator.org/assets/images/og/og-image.jpg">
+  <meta property="og:url" content="https://proteinintakecalculator.org/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Protein Intake Calculator">
+  <meta name="twitter:description" content="Calculate how much protein you need daily for muscle building, weight loss, or general health.">
+  <meta name="twitter:image" content="https://proteinintakecalculator.org/assets/images/og/og-image.jpg">
+  <link rel="canonical" href="https://proteinintakecalculator.org/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://proteinintakecalculator.org/#website",
+        "name": "Protein Intake Calculator",
+        "url": "https://proteinintakecalculator.org/",
+        "description": "Free protein intake calculator to find out how much protein you need daily for muscle building, weight loss, or general health.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://proteinintakecalculator.org/blog/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://proteinintakecalculator.org/#webapp",
+        "name": "Protein Intake Calculator",
+        "description": "Calculate exactly how much protein you need daily based on your weight, activity level, and fitness goals. Get personalized recommendations for muscle building or weight loss.",
+        "url": "https://proteinintakecalculator.org/",
+        "applicationCategory": "CalculatorApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Daily protein calculator",
+          "Muscle building protein calculator",
+          "Weight loss protein calculator",
+          "Per meal protein distribution"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://proteinintakecalculator.org/#organization",
+        "name": "Protein Intake Calculator",
+        "url": "https://proteinintakecalculator.org/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://proteinintakecalculator.org/assets/images/favicon/android-chrome-512x512.png",
+          "width": 512,
+          "height": 512
+        },
+        "sameAs": []
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://proteinintakecalculator.org/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://proteinintakecalculator.org/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Calculator"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://proteinintakecalculator.org/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much protein do I need to build muscle?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For muscle building, aim for 0.7-1.0g of protein per pound of body weight. Research shows 0.8g/lb is sufficient for most people, but going up to 1g/lb provides a margin of safety. More isn't necessarily better once you reach this threshold."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I eat more protein when losing weight?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! Higher protein intake during a calorie deficit helps preserve muscle mass. Aim for 1.0-1.2g per pound during weight loss. This is higher than maintenance needs because your body is more likely to break down muscle for energy when in a deficit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I eat too much protein?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For healthy individuals, protein intake up to 1.5g/lb is safe. However, eating more than 1.2g/lb rarely provides additional benefits for muscle building. Excess protein is converted to energy or stored, not automatically turned into muscle."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does protein timing matter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Total daily protein matters most. However, spreading protein across 3-5 meals (25-40g each) may slightly optimize muscle protein synthesis. Eating protein within a few hours of training can help, but the 'anabolic window' is wider than once thought."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I calculate protein based on body weight or lean mass?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Using lean body mass (LBM) is more accurate, especially if you're overweight. Fat tissue doesn't require protein like muscle does. If you don't know your LBM, using total body weight works fine—just aim for the lower end of the range if you have higher body fat."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://proteinintakecalculator.org/#howto",
+        "name": "How to Calculate Your Daily Protein Needs",
+        "description": "Step-by-step guide to using the Protein Intake Calculator to determine your optimal daily protein intake for muscle building, weight loss, or general health.",
+        "totalTime": "PT2M",
+        "tool": {
+          "@type": "HowToTool",
+          "name": "Protein Intake Calculator"
+        },
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Choose Your Calculator",
+            "text": "Select the calculator tab that matches your goal: Daily Protein for general needs, Muscle Building for strength training, Weight Loss for dieting, or Per Meal for distribution planning.",
+            "url": "https://proteinintakecalculator.org/#panel-daily"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Enter Your Body Weight",
+            "text": "Input your current body weight in pounds or kilograms. For most accurate results, weigh yourself in the morning before eating.",
+            "url": "https://proteinintakecalculator.org/#panel-daily"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Select Your Activity Level",
+            "text": "Choose your activity level honestly: Sedentary (desk job, no exercise), Light (1-2 workouts/week), Moderate (3-4 workouts/week), Active (5+ workouts/week), or Athlete/Intense training.",
+            "url": "https://proteinintakecalculator.org/#panel-daily"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Choose Your Goal",
+            "text": "Select Maintain for general health, Build Muscle if you're strength training, or Lose Weight if you're in a calorie deficit.",
+            "url": "https://proteinintakecalculator.org/#panel-daily"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Calculate and Review Results",
+            "text": "Click Calculate to see your optimal daily protein target plus a recommended range (minimum to maximum). Aim for the optimal value, but anywhere in the range works.",
+            "url": "https://proteinintakecalculator.org/#panel-daily"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://proteinintakecalculator.org/#calculators",
+        "name": "Protein Calculators",
+        "description": "Four specialized protein calculators for different goals and needs.",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Daily Protein Calculator",
+            "description": "Calculate your baseline daily protein needs based on weight, activity level, and goal.",
+            "url": "https://proteinintakecalculator.org/#panel-daily"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Muscle Building Protein Calculator",
+            "description": "Optimize protein intake for muscle growth based on training intensity and experience level.",
+            "url": "https://proteinintakecalculator.org/#panel-muscle"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Weight Loss Protein Calculator",
+            "description": "Calculate higher protein needs during a calorie deficit to preserve muscle mass.",
+            "url": "https://proteinintakecalculator.org/#panel-loss"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Per Meal Protein Calculator",
+            "description": "Distribute your daily protein target across meals for optimal muscle protein synthesis.",
+            "url": "https://proteinintakecalculator.org/#panel-meal"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://proteinintakecalculator.org/#guides",
+        "name": "Protein Nutrition Guides",
+        "description": "Comprehensive guides on protein intake, timing, sources, and optimization.",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "How Much Protein Do I Need?",
+            "url": "https://proteinintakecalculator.org/blog/how-much-protein-do-i-need/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Protein for Weight Loss",
+            "url": "https://proteinintakecalculator.org/blog/protein-for-weight-loss/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Protein Calculator for Muscle Building",
+            "url": "https://proteinintakecalculator.org/blog/protein-calculator-for-muscle/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Best Time to Eat Protein",
+            "url": "https://proteinintakecalculator.org/blog/best-time-to-eat-protein/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "High-Protein Foods List",
+            "url": "https://proteinintakecalculator.org/blog/high-protein-foods-list/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Vegan Protein Sources",
+            "url": "https://proteinintakecalculator.org/blog/vegan-protein-sources/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header class="header"><div class="container"><div class="header-inner">
+    <a href="/" class="logo"><svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2c-4 0-8 2-8 6v8c0 4 4 6 8 6s8-2 8-6V8c0-4-4-6-8-6z"/><path d="M12 12c-2 0-4-1-4-3s2-3 4-3 4 1 4 3-2 3-4 3z"/></svg><span>Protein Calculator</span></a>
+    <nav class="nav-desktop"><a href="/" class="active">Calculator</a><a href="/blog/">Guides</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav>
+    <button class="nav-toggle" aria-label="Menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+  </div><nav class="nav-mobile"><a href="/">Calculator</a><a href="/blog/">Guides</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav></div></header>
+
+  <main><div class="container">
+    <h1>Protein Intake Calculator</h1>
+    <p class="intro-text">Calculate exactly how much protein you need daily based on your weight, activity level, and fitness goals. Get personalized recommendations for muscle building or weight loss.</p>
+
+    <!-- Key Takeaways Box -->
+    <div class="key-takeaways">
+      <h3>Key Takeaways</h3>
+      <ul>
+        <li><strong>General health:</strong> 0.36-0.6g protein per pound of body weight</li>
+        <li><strong>Building muscle:</strong> 0.7-1.0g per pound (higher for advanced lifters)</li>
+        <li><strong>Losing weight:</strong> 0.9-1.1g per pound to preserve muscle mass</li>
+        <li><strong>Timing:</strong> Spread protein across 3-5 meals (25-40g each) for best results</li>
+        <li><strong>Quality matters:</strong> Prioritize complete proteins with all essential amino acids</li>
+      </ul>
+    </div>
+
+    <!-- How It Works -->
+    <div class="steps-visual" style="max-width:800px;margin:0 auto 1.5rem">
+      <div class="step-item"><h4>Choose Goal</h4><p>Daily, muscle, weight loss, or per meal</p></div>
+      <div class="step-item"><h4>Enter Weight</h4><p>Your current body weight in lbs or kg</p></div>
+      <div class="step-item"><h4>Set Activity</h4><p>Your exercise frequency and intensity</p></div>
+      <div class="step-item"><h4>Get Results</h4><p>Personalized protein range instantly</p></div>
+    </div>
+
+    <div class="calculator-card">
+      <div class="calc-tabs">
+        <button class="calc-tab active" data-tab="daily"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span class="calc-tab-label">Daily Protein</span></button>
+        <button class="calc-tab" data-tab="muscle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6.5 6.5c1.5 0 3 .5 4 1.5s2.5 1.5 4 1.5"/><path d="M6.5 17.5c1.5 0 3-.5 4-1.5s2.5-1.5 4-1.5"/></svg><span class="calc-tab-label">Muscle Building</span></button>
+        <button class="calc-tab" data-tab="loss"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg><span class="calc-tab-label">Weight Loss</span></button>
+        <button class="calc-tab" data-tab="meal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/></svg><span class="calc-tab-label">Per Meal</span></button>
+      </div>
+      
+      <!-- DAILY PROTEIN PANEL -->
+      <div id="panel-daily" class="calc-panel active">
+        <div class="form-grid">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Body Weight</label>
+              <div style="display:flex;gap:0.5rem">
+                <input type="number" id="weight" class="form-input" value="150">
+                <select id="weight-unit" class="form-select" style="width:80px">
+                  <option value="lbs">lbs</option>
+                  <option value="kg">kg</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Activity Level</label>
+              <select id="activity" class="form-select">
+                <option value="sedentary">Sedentary (desk job, no exercise)</option>
+                <option value="light">Light (1-2 days/week)</option>
+                <option value="moderate" selected>Moderate (3-4 days/week)</option>
+                <option value="active">Active (5+ days/week)</option>
+                <option value="athlete">Athlete/Intense training</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Goal</label>
+            <div class="radio-group">
+              <label class="radio-option"><input type="radio" name="goal-radio" value="maintain" checked onchange="document.getElementById('goal').value='maintain'"><span>Maintain</span></label>
+              <label class="radio-option"><input type="radio" name="goal-radio" value="build" onchange="document.getElementById('goal').value='build'"><span>Build Muscle</span></label>
+              <label class="radio-option"><input type="radio" name="goal-radio" value="lose" onchange="document.getElementById('goal').value='lose'"><span>Lose Weight</span></label>
+            </div>
+            <input type="hidden" id="goal" value="maintain">
+          </div>
+        </div>
+        
+        <button class="calculate-btn" id="calc-daily-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/></svg>
+          Calculate My Protein Needs
+        </button>
+        
+        <div class="results-section" id="daily-results">
+          <div class="result-primary">
+            <div class="result-label">Daily Protein Target</div>
+            <div class="result-value"><span id="daily-protein">--</span> <span class="result-unit">grams</span></div>
+            <div class="result-sublabel" id="daily-sublabel">-- per lb body weight</div>
+          </div>
+          
+          <div class="protein-range">
+            <div class="protein-range-header"><span>Your Protein Range</span><span id="protein-optimal">--</span></div>
+            <div class="protein-range-bar"><div class="protein-range-fill" id="protein-range-fill" style="width:60%"></div></div>
+            <div class="protein-range-labels"><span id="range-min">Min</span><span id="range-max">Max</span></div>
+          </div>
+          
+          <div class="results-grid results-grid-4">
+            <div class="result-item"><div class="result-item-label">Minimum</div><div class="result-item-value" id="protein-min">--</div></div>
+            <div class="result-item"><div class="result-item-label">Optimal</div><div class="result-item-value" id="protein-optimal">--</div></div>
+            <div class="result-item"><div class="result-item-label">Maximum</div><div class="result-item-value" id="protein-max">--</div></div>
+            <div class="result-item"><div class="result-item-label">Per lb</div><div class="result-item-value" id="protein-per-lb">--</div></div>
+          </div>
+
+          <div id="daily-enhanced"></div>
+        </div>
+      </div>
+
+      <!-- MUSCLE BUILDING PANEL -->
+      <div id="panel-muscle" class="calc-panel">
+        <div class="form-grid">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Body Weight (lbs)</label>
+              <input type="number" id="muscle-weight" class="form-input" value="180">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Training Intensity</label>
+              <select id="intensity" class="form-select">
+                <option value="beginner">Beginner (0-1 years)</option>
+                <option value="moderate" selected>Intermediate (1-3 years)</option>
+                <option value="advanced">Advanced (3+ years)</option>
+                <option value="intense">Elite/Competitive</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label"><input type="checkbox" id="use-lbm" style="margin-right:0.5rem">Calculate based on Lean Body Mass (more accurate)</label>
+          </div>
+          <div class="form-group" id="lbm-group" style="display:none">
+            <label class="form-label">Lean Body Mass (lbs)</label>
+            <input type="number" id="lbm-input" class="form-input" value="150">
+            <span class="form-hint">Use our LBM calculator if unknown</span>
+          </div>
+        </div>
+        
+        <button class="calculate-btn" id="calc-muscle-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6.5 6.5c1.5 0 3 .5 4 1.5s2.5 1.5 4 1.5"/></svg>
+          Calculate Muscle Building Protein
+        </button>
+        
+        <div class="results-section" id="muscle-results">
+          <div class="result-primary">
+            <div class="result-label">Protein for Muscle Growth</div>
+            <div class="result-value"><span id="muscle-protein">--</span> <span class="result-unit">grams/day</span></div>
+            <div class="result-sublabel" id="muscle-sublabel">--</div>
+          </div>
+          <div class="results-grid results-grid-4">
+            <div class="result-item"><div class="result-item-label">Base Weight</div><div class="result-item-value" id="muscle-base">--</div></div>
+            <div class="result-item"><div class="result-item-label">Per lb</div><div class="result-item-value" id="muscle-per-lb">--</div></div>
+            <div class="result-item"><div class="result-item-label">Minimum</div><div class="result-item-value" id="muscle-min">--</div></div>
+            <div class="result-item"><div class="result-item-label">Maximum</div><div class="result-item-value" id="muscle-max">--</div></div>
+          </div>
+
+          <div id="muscle-enhanced"></div>
+        </div>
+      </div>
+
+      <!-- WEIGHT LOSS PANEL -->
+      <div id="panel-loss" class="calc-panel">
+        <div class="form-grid">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Current Weight (lbs)</label>
+              <input type="number" id="current-weight" class="form-input" value="200">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Goal Weight (lbs)</label>
+              <input type="number" id="goal-weight" class="form-input" value="170">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Calorie Deficit Size</label>
+            <select id="deficit" class="form-select">
+              <option value="small">Small (0.5 lb/week)</option>
+              <option value="moderate" selected>Moderate (1 lb/week)</option>
+              <option value="aggressive">Aggressive (1.5-2 lb/week)</option>
+            </select>
+            <span class="form-hint">Larger deficits require more protein to preserve muscle</span>
+          </div>
+        </div>
+        
+        <button class="calculate-btn" id="calc-loss-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/></svg>
+          Calculate Weight Loss Protein
+        </button>
+        
+        <div class="results-section" id="loss-results">
+          <div class="result-primary">
+            <div class="result-label">Protein for Weight Loss</div>
+            <div class="result-value"><span id="loss-protein">--</span> <span class="result-unit">grams/day</span></div>
+            <div class="result-sublabel" id="loss-sublabel">--</div>
+          </div>
+          <div class="results-grid results-grid-4">
+            <div class="result-item"><div class="result-item-label">Current Weight</div><div class="result-item-value" id="loss-current">--</div></div>
+            <div class="result-item"><div class="result-item-label">Per lb</div><div class="result-item-value" id="loss-per-lb">--</div></div>
+            <div class="result-item"><div class="result-item-label">At Goal Weight</div><div class="result-item-value" id="loss-at-goal">--</div></div>
+            <div class="result-item"><div class="result-item-label">Minimum</div><div class="result-item-value" id="loss-min">--</div></div>
+          </div>
+
+          <div id="loss-enhanced"></div>
+        </div>
+      </div>
+
+      <!-- PER MEAL PANEL -->
+      <div id="panel-meal" class="calc-panel">
+        <div class="form-grid">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Daily Protein Target (grams)</label>
+              <input type="number" id="daily-protein-input" class="form-input" value="150">
+              <span class="form-hint">Calculate using other tabs if unknown</span>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Meals Per Day</label>
+              <select id="meals" class="form-select">
+                <option value="3">3 meals</option>
+                <option value="4" selected>4 meals</option>
+                <option value="5">5 meals</option>
+                <option value="6">6 meals</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        
+        <button class="calculate-btn" id="calc-meal-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 010 8h-1"/></svg>
+          Split Protein Across Meals
+        </button>
+        
+        <div class="results-section" id="meal-results">
+          <div class="result-primary">
+            <div class="result-label">Protein Per Meal</div>
+            <div class="result-value"><span id="per-meal-protein">--</span> <span class="result-unit">grams</span></div>
+            <div class="result-sublabel" id="meal-sublabel">--</div>
+          </div>
+          
+          <div class="meal-grid" id="meal-breakdown"></div>
+          
+          <div class="results-grid" style="margin-top:1rem">
+            <div class="result-item"><div class="result-item-label">Daily Total</div><div class="result-item-value" id="meal-total">--</div></div>
+            <div class="result-item"><div class="result-item-label">Meals</div><div class="result-item-value" id="meal-count">--</div></div>
+          </div>
+
+          <div id="meal-enhanced"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- How to Use This Calculator -->
+    <section class="content-section">
+      <h2>How to Use This Calculator</h2>
+      <p>Our protein calculator offers four specialized tools. Here's how to get the most accurate results from each one:</p>
+
+      <h3>Daily Protein Calculator</h3>
+      <p>This is the best starting point for most people. Here's how to use it:</p>
+      <ol>
+        <li><strong>Enter your body weight</strong> - Use your current weight in pounds or kilograms. For accuracy, weigh yourself in the morning before eating.</li>
+        <li><strong>Select your activity level</strong> - Be honest here. "Moderate" means 3-4 workouts per week. Don't count walking unless it's intense exercise.</li>
+        <li><strong>Choose your goal</strong> - "Maintain" for general health, "Build Muscle" if you're strength training, "Lose Weight" if you're in a calorie deficit.</li>
+        <li><strong>Click Calculate</strong> - You'll see your optimal daily protein target plus a range (minimum to maximum).</li>
+      </ol>
+      <p><strong>Tip:</strong> The "optimal" value is your target. Anywhere within the range is fine, so don't stress about hitting the exact number every day.</p>
+
+      <h3>Muscle Building Calculator</h3>
+      <p>Designed for those focused on gaining muscle mass:</p>
+      <ol>
+        <li><strong>Enter your weight</strong> - Your current body weight in pounds.</li>
+        <li><strong>Select training intensity</strong> - Beginner (0-1 years lifting), Intermediate (1-3 years), Advanced (3+ years), or Elite/Competitive.</li>
+        <li><strong>Optional: Use Lean Body Mass</strong> - Check this box if you know your lean body mass. This gives more accurate results, especially if you have higher body fat. If unsure, leave unchecked.</li>
+      </ol>
+      <p><strong>Tip:</strong> Beginners actually need less protein per pound because they build muscle more easily. Advanced lifters need more to continue making gains.</p>
+
+      <h3>Weight Loss Calculator</h3>
+      <p>Optimized for preserving muscle while losing fat:</p>
+      <ol>
+        <li><strong>Enter your current weight</strong> - What you weigh right now.</li>
+        <li><strong>Enter your goal weight</strong> - What you're aiming to reach.</li>
+        <li><strong>Select deficit size</strong> - Small (0.5 lb/week), Moderate (1 lb/week), or Aggressive (1.5-2 lb/week). Larger deficits require more protein.</li>
+      </ol>
+      <p><strong>Tip:</strong> The calculator shows protein needs for your current weight. As you lose weight, recalculate every 10-15 pounds lost.</p>
+
+      <h3>Per Meal Calculator</h3>
+      <p>Helps you distribute your daily protein across meals:</p>
+      <ol>
+        <li><strong>Enter your daily protein target</strong> - Use the result from another calculator tab, or enter a known target.</li>
+        <li><strong>Select meals per day</strong> - Choose 3, 4, 5, or 6 meals.</li>
+        <li><strong>View breakdown</strong> - See how much protein to aim for at each meal.</li>
+      </ol>
+      <p><strong>Tip:</strong> Research suggests 25-40g per meal optimizes muscle protein synthesis. If your per-meal amount is very high (50g+), consider adding another meal or snack.</p>
+
+      <h3>Common Mistakes to Avoid</h3>
+      <ul>
+        <li><strong>Overestimating activity level</strong> - A desk job with 3 gym sessions is "Moderate," not "Active." Be conservative.</li>
+        <li><strong>Using goal weight instead of current weight</strong> - Always calculate based on your current weight (except for the goal weight field in the weight loss calculator).</li>
+        <li><strong>Ignoring the range</strong> - The optimal value is a target, but anywhere in the range works. Consistency matters more than precision.</li>
+        <li><strong>Not adjusting over time</strong> - Recalculate when your weight changes by 10+ pounds or your activity level shifts significantly.</li>
+      </ul>
+    </section>
+
+    <!-- Real-World Examples -->
+    <section class="content-section">
+      <h2>Real-World Examples</h2>
+      <p>See how the calculator works for different people with different goals:</p>
+
+      <h3>Example 1: Office Worker Maintaining Health</h3>
+      <p><strong>Profile:</strong> Sarah, 35, works a desk job and does yoga twice a week. She weighs 140 lbs and wants to maintain her health.</p>
+      <p><strong>Calculator inputs:</strong> Weight: 140 lbs | Activity: Light | Goal: Maintain</p>
+      <p><strong>Results:</strong> Optimal protein: <strong>84g/day</strong> (range: 70-98g)</p>
+      <p><strong>What this means:</strong> Sarah should aim for about 84 grams of protein daily. That's roughly 3 palm-sized portions of protein foods spread across her meals. A chicken breast at lunch (31g), Greek yogurt for a snack (17g), and salmon at dinner (25g) would put her right in range.</p>
+
+      <h3>Example 2: Beginner Starting Strength Training</h3>
+      <p><strong>Profile:</strong> Mike, 28, just started lifting weights 3 months ago. He weighs 175 lbs and wants to build muscle.</p>
+      <p><strong>Calculator inputs:</strong> Weight: 175 lbs | Training: Beginner | Goal: Build Muscle</p>
+      <p><strong>Results:</strong> Optimal protein: <strong>140g/day</strong> (range: 140-210g)</p>
+      <p><strong>What this means:</strong> As a beginner, Mike's body responds well to training, so 0.8g/lb (140g) is sufficient. He could split this into 4 meals of 35g each. Eggs and toast for breakfast (18g), chicken salad for lunch (35g), a protein shake post-workout (25g), and steak with vegetables for dinner (40g) gets him there.</p>
+
+      <h3>Example 3: Experienced Lifter Maximizing Gains</h3>
+      <p><strong>Profile:</strong> James, 32, has been lifting seriously for 5 years. He weighs 195 lbs with about 15% body fat (lean mass ~166 lbs).</p>
+      <p><strong>Calculator inputs:</strong> Weight: 166 lbs (LBM) | Training: Advanced | Goal: Build Muscle</p>
+      <p><strong>Results:</strong> Optimal protein: <strong>183g/day</strong> (range: 133-199g)</p>
+      <p><strong>What this means:</strong> Using lean body mass gives James a more accurate target. At 1.1g per lb of lean mass, he needs 183g daily. This requires planning: protein at every meal plus a shake or two. His gains come slower now, so maximizing protein intake helps squeeze out every bit of progress.</p>
+
+      <h3>Example 4: Woman Losing Weight</h3>
+      <p><strong>Profile:</strong> Lisa, 42, wants to lose 30 pounds. She currently weighs 180 lbs, targeting 150 lbs. She's doing a moderate calorie deficit.</p>
+      <p><strong>Calculator inputs:</strong> Current: 180 lbs | Goal: 150 lbs | Deficit: Moderate</p>
+      <p><strong>Results:</strong> Optimal protein: <strong>180g/day</strong> (at goal: 150g)</p>
+      <p><strong>What this means:</strong> Lisa needs higher protein (1.0g/lb) to preserve muscle while losing fat. This seems like a lot, but it's essential for preventing the "skinny fat" look. She should prioritize lean proteins at every meal and consider a protein shake to hit her target without excess calories.</p>
+
+      <h3>Example 5: Older Adult Preventing Muscle Loss</h3>
+      <p><strong>Profile:</strong> Robert, 65, wants to maintain muscle mass as he ages. He weighs 170 lbs and does light resistance training twice weekly.</p>
+      <p><strong>Calculator inputs:</strong> Weight: 170 lbs | Activity: Light | Goal: Maintain</p>
+      <p><strong>Results:</strong> Optimal protein: <strong>102g/day</strong> (range: 85-119g)</p>
+      <p><strong>What this means:</strong> Research suggests older adults may benefit from the higher end of protein recommendations to combat age-related muscle loss. Robert should aim for 100-120g daily, spread across meals, with emphasis on leucine-rich sources like dairy, eggs, and meat.</p>
+
+      <h3>Example 6: Vegetarian Athlete</h3>
+      <p><strong>Profile:</strong> Priya, 26, is a vegetarian who trains for half-marathons and does strength training. She weighs 135 lbs.</p>
+      <p><strong>Calculator inputs:</strong> Weight: 135 lbs | Activity: Active | Goal: Maintain</p>
+      <p><strong>Results:</strong> Optimal protein: <strong>108g/day</strong> (range: 95-135g)</p>
+      <p><strong>What this means:</strong> Priya can hit her target with plant proteins, but needs to be intentional. Greek yogurt (17g), lentil soup (18g), tofu stir-fry (20g), eggs (12g), cottage cheese (28g), and a plant protein shake (20g) gets her to 115g. She should aim slightly higher since some plant proteins are less bioavailable.</p>
+
+      <h3>Example 7: Aggressive Weight Loss Phase</h3>
+      <p><strong>Profile:</strong> David, 38, is doing a short-term aggressive cut before a vacation. He weighs 210 lbs and is losing 2 lbs/week.</p>
+      <p><strong>Calculator inputs:</strong> Current: 210 lbs | Goal: 190 lbs | Deficit: Aggressive</p>
+      <p><strong>Results:</strong> Optimal protein: <strong>231g/day</strong> (minimum: 168g)</p>
+      <p><strong>What this means:</strong> With an aggressive deficit, David's body is more likely to break down muscle for energy. The higher protein intake (1.1g/lb) helps preserve muscle. This is challenging to hit, so he'll rely heavily on lean meats, egg whites, protein shakes, and cottage cheese while minimizing fats and carbs.</p>
+    </section>
+
+    <!-- When to Use This Calculator -->
+    <section class="content-section">
+      <h2>When to Use This Calculator</h2>
+      <p>This protein calculator is helpful in many situations:</p>
+
+      <h3>You Should Use This Calculator If You're:</h3>
+      <ul>
+        <li><strong>Starting a fitness program</strong> - Whether it's your first time in the gym or you're returning after a break, knowing your protein needs helps you fuel your workouts properly.</li>
+        <li><strong>Trying to build muscle</strong> - Protein is the building block of muscle. Without adequate intake, your training won't produce optimal results.</li>
+        <li><strong>Losing weight</strong> - Higher protein during a calorie deficit preserves muscle mass, keeps you feeling full, and boosts your metabolism.</li>
+        <li><strong>Planning your meals</strong> - Use the per-meal calculator to structure your eating around your protein goals.</li>
+        <li><strong>Unsure if you're eating enough protein</strong> - Many people underestimate their needs, especially active individuals.</li>
+        <li><strong>Adjusting after weight changes</strong> - Lost or gained 10+ pounds? Recalculate to update your targets.</li>
+        <li><strong>Transitioning to a plant-based diet</strong> - Vegetarians and vegans often need to be more intentional about protein. This calculator helps set clear targets.</li>
+        <li><strong>Over 50 and concerned about muscle loss</strong> - Age-related muscle loss (sarcopenia) can be slowed with adequate protein intake.</li>
+      </ul>
+
+      <h3>Who Benefits Most</h3>
+      <p><strong>Athletes and gym-goers</strong> need precise protein targets to maximize performance and recovery. <strong>People losing weight</strong> benefit from the weight loss calculator's focus on muscle preservation. <strong>Older adults</strong> can use the calculator to ensure they're getting enough protein to maintain muscle mass. <strong>Busy professionals</strong> can use the per-meal breakdown to plan practical, protein-rich meals.</p>
+
+      <h3>What Decisions This Helps With</h3>
+      <ul>
+        <li>How much chicken/fish/meat to buy for the week</li>
+        <li>Whether you need a protein supplement</li>
+        <li>How to structure meals throughout the day</li>
+        <li>Whether your current diet is sufficient for your goals</li>
+        <li>How to adjust your diet when your goals change</li>
+      </ul>
+    </section>
+
+    <!-- Quick Reference Tables -->
+    <section class="content-section">
+      <h2>Quick Reference Tables</h2>
+      <p>These tables show the exact protein multipliers used by our calculator, based on current sports nutrition research.</p>
+
+      <h3>Muscle Building Protein by Training Level</h3>
+      <p>The more training experience you have, the harder it becomes to build muscle, so protein requirements increase:</p>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Training Level</th><th>Experience</th><th>Protein/lb</th><th>150 lb Person</th><th>180 lb Person</th><th>200 lb Person</th></tr></thead>
+          <tbody>
+            <tr><td>Beginner</td><td>0-1 years</td><td><strong>0.8g</strong></td><td>120g</td><td>144g</td><td>160g</td></tr>
+            <tr><td>Intermediate</td><td>1-3 years</td><td><strong>1.0g</strong></td><td>150g</td><td>180g</td><td>200g</td></tr>
+            <tr><td>Advanced</td><td>3+ years</td><td><strong>1.1g</strong></td><td>165g</td><td>198g</td><td>220g</td></tr>
+            <tr><td>Elite/Competitive</td><td>5+ years</td><td><strong>1.2g</strong></td><td>180g</td><td>216g</td><td>240g</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><em>Note: These are optimal values. The acceptable range for all training levels is 0.8-1.2g per pound.</em></p>
+
+      <h3>Weight Loss Protein by Deficit Size</h3>
+      <p>Larger calorie deficits increase the risk of muscle loss, requiring more protein to compensate:</p>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Deficit Size</th><th>Weight Loss Rate</th><th>Protein/lb</th><th>180 lb Person</th><th>200 lb Person</th><th>220 lb Person</th></tr></thead>
+          <tbody>
+            <tr><td>Small</td><td>~0.5 lb/week</td><td><strong>0.9g</strong></td><td>162g</td><td>180g</td><td>198g</td></tr>
+            <tr><td>Moderate</td><td>~1 lb/week</td><td><strong>1.0g</strong></td><td>180g</td><td>200g</td><td>220g</td></tr>
+            <tr><td>Aggressive</td><td>~1.5-2 lb/week</td><td><strong>1.1g</strong></td><td>198g</td><td>220g</td><td>242g</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><em>Minimum recommended during any deficit: 0.8g per pound of body weight.</em></p>
+
+      <h3>Daily Protein by Activity Level and Goal</h3>
+      <p>This table shows how your goal modifies the base activity level multipliers:</p>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Activity Level</th><th>Maintain (g/lb)</th><th>Build Muscle (g/lb)</th><th>Lose Weight (g/lb)</th></tr></thead>
+          <tbody>
+            <tr><td>Sedentary</td><td>0.36-0.6</td><td>0.56-0.8</td><td>0.66-0.8</td></tr>
+            <tr><td>Light (1-2x/week)</td><td>0.5-0.7</td><td>0.7-0.9</td><td>0.8-0.9</td></tr>
+            <tr><td>Moderate (3-4x/week)</td><td>0.6-0.8</td><td>0.8-1.0</td><td>0.9-1.0</td></tr>
+            <tr><td>Active (5+/week)</td><td>0.7-1.0</td><td>0.9-1.2</td><td>1.0-1.2</td></tr>
+            <tr><td>Athlete/Intense</td><td>0.8-1.2</td><td>1.0-1.4</td><td>1.1-1.4</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Formula Reference -->
+    <section class="content-section">
+      <h2>How the Calculator Works: Formula Reference</h2>
+      <p>Understanding the math behind your protein recommendations helps you make informed decisions about your nutrition.</p>
+
+      <h3>Basic Formula</h3>
+      <p>All our calculations start with the same simple formula:</p>
+      <div class="formula-box" style="text-align:center">
+        <span class="formula-label">Basic Formula</span>
+        Daily Protein (g) = Body Weight (lbs) × Protein Factor (g/lb)
+      </div>
+      <p>The protein factor varies based on your activity level, goal, and specific circumstances.</p>
+
+      <h3>Daily Protein Calculator Formula</h3>
+      <p>The daily calculator uses base factors adjusted by your goal:</p>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Activity Level</th><th>Base Min</th><th>Base Optimal</th><th>Base Max</th></tr></thead>
+          <tbody>
+            <tr><td>Sedentary</td><td>0.36</td><td>0.50</td><td>0.60</td></tr>
+            <tr><td>Light</td><td>0.50</td><td>0.60</td><td>0.70</td></tr>
+            <tr><td>Moderate</td><td>0.60</td><td>0.70</td><td>0.80</td></tr>
+            <tr><td>Active</td><td>0.70</td><td>0.80</td><td>1.00</td></tr>
+            <tr><td>Athlete</td><td>0.80</td><td>1.00</td><td>1.20</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>Goal adjustments:</strong></p>
+      <ul>
+        <li><strong>Maintain:</strong> Uses base factors unchanged</li>
+        <li><strong>Build Muscle:</strong> Adds +0.2 to min, optimal, and max</li>
+        <li><strong>Lose Weight:</strong> Adds +0.3 to min and optimal, +0.2 to max</li>
+      </ul>
+
+      <h3>Muscle Building Calculator Formula</h3>
+      <p>The muscle building calculator uses training experience to determine protein needs:</p>
+      <div class="formula-box">
+        <span class="formula-label">Muscle Building Factors</span>
+Beginner (0-1 years):    Weight × 0.8g
+Intermediate (1-3 years): Weight × 1.0g
+Advanced (3+ years):     Weight × 1.1g
+Elite/Competitive:       Weight × 1.2g
+      </div>
+      <p>When using Lean Body Mass (LBM), the formula uses LBM instead of total body weight, which gives more accurate results for those with higher body fat percentages.</p>
+
+      <h3>Weight Loss Calculator Formula</h3>
+      <p>During weight loss, protein needs increase to preserve muscle mass:</p>
+      <div class="formula-box">
+        <span class="formula-label">Weight Loss Factors</span>
+Small deficit (0.5 lb/week):      Weight × 0.9g
+Moderate deficit (1 lb/week):     Weight × 1.0g
+Aggressive deficit (1.5-2 lb/week): Weight × 1.1g
+      </div>
+      <p>The calculator also shows your protein target at your goal weight, so you know what to aim for as you progress.</p>
+
+      <h3>Per Meal Calculator Formula</h3>
+      <p>The per meal calculator simply divides your daily target:</p>
+      <div class="formula-box" style="text-align:center">
+        <span class="formula-label">Per Meal Formula</span>
+        Protein Per Meal = Daily Target ÷ Number of Meals
+      </div>
+      <p>Research suggests 25-40g per meal optimizes muscle protein synthesis. If your per-meal amount exceeds 50g, consider adding another meal.</p>
+    </section>
+
+    <!-- Understanding Your Results -->
+    <section class="content-section">
+      <h2>Understanding Your Results</h2>
+      <p>The calculator gives you several numbers. Here's what each one means and how to use them:</p>
+
+      <h3>What "Optimal" Really Means</h3>
+      <p>The <strong>optimal</strong> value is your primary target, the amount that research suggests works best for most people with your profile. It's not a magic number you must hit exactly; it's the center of a range that's proven effective.</p>
+      <p>Think of optimal as your "aim here" target. If you hit within 10-15 grams of this number daily, you're doing well.</p>
+
+      <h3>Understanding the Range (Min to Max)</h3>
+      <p>Your results include a <strong>minimum</strong> and <strong>maximum</strong> value. Here's how to interpret them:</p>
+      <ul>
+        <li><strong>Minimum:</strong> The lowest effective amount. Going below this consistently may compromise your goals (muscle loss during dieting, slower muscle gain during building).</li>
+        <li><strong>Maximum:</strong> The upper limit of what's beneficial. Eating more than this won't hurt you, but provides diminishing returns for muscle building or preservation.</li>
+      </ul>
+      <p><strong>When to aim for minimum:</strong> Days when you're not training, traveling, or when hitting higher amounts isn't practical.</p>
+      <p><strong>When to aim for maximum:</strong> Hard training days, when you're in an aggressive calorie deficit, or if you're an advanced lifter trying to maximize every variable.</p>
+
+      <h3>Per Pound vs. Total Grams</h3>
+      <p>The calculator shows both a <strong>per-pound multiplier</strong> (like 0.8g/lb) and <strong>total grams</strong> (like 144g). Both are useful:</p>
+      <ul>
+        <li><strong>Per pound:</strong> Useful for comparing recommendations and understanding the underlying science</li>
+        <li><strong>Total grams:</strong> What you actually use for meal planning and tracking</li>
+      </ul>
+
+      <h3>Why Your Results Might Differ From Others</h3>
+      <p>If your friend uses the calculator and gets different recommendations, that's normal. Protein needs vary based on:</p>
+      <ul>
+        <li><strong>Body weight:</strong> Larger people need more protein in absolute terms</li>
+        <li><strong>Activity level:</strong> More exercise = more protein needed for recovery</li>
+        <li><strong>Goals:</strong> Building muscle and losing weight both increase protein needs above maintenance</li>
+        <li><strong>Training experience:</strong> Advanced lifters need more protein per pound than beginners</li>
+        <li><strong>Deficit size:</strong> Larger calorie deficits require more protein to preserve muscle</li>
+      </ul>
+
+      <h3>Body Weight vs. Lean Body Mass</h3>
+      <p>Most calculations use <strong>total body weight</strong>, which works well for most people. However, if you have higher body fat (roughly 25%+ for men, 35%+ for women), calculating based on <strong>lean body mass</strong> (LBM) gives more accurate results.</p>
+      <p>Why? Fat tissue doesn't need protein the way muscle does. Using LBM ensures you're feeding your muscle mass appropriately without overestimating needs based on fat tissue.</p>
+      <p>If you don't know your LBM, you can either use a body fat calculator or simply aim for the lower end of the range when using total body weight.</p>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="content-section">
+      <h2>Protein Needs Comparison</h2>
+      <p>This comparison shows how protein needs change across different goals and situations for a 175 lb person:</p>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Scenario</th><th>Multiplier</th><th>Daily Protein</th><th>Per Meal (4 meals)</th></tr></thead>
+          <tbody>
+            <tr><td>Sedentary, maintain health</td><td>0.50g/lb</td><td>88g</td><td>22g</td></tr>
+            <tr><td>Moderate exercise, maintain</td><td>0.70g/lb</td><td>123g</td><td>31g</td></tr>
+            <tr><td>Active, maintain</td><td>0.80g/lb</td><td>140g</td><td>35g</td></tr>
+            <tr><td>Beginner muscle building</td><td>0.80g/lb</td><td>140g</td><td>35g</td></tr>
+            <tr><td>Intermediate muscle building</td><td>1.00g/lb</td><td>175g</td><td>44g</td></tr>
+            <tr><td>Advanced muscle building</td><td>1.10g/lb</td><td>193g</td><td>48g</td></tr>
+            <tr><td>Weight loss, small deficit</td><td>0.90g/lb</td><td>158g</td><td>40g</td></tr>
+            <tr><td>Weight loss, moderate deficit</td><td>1.00g/lb</td><td>175g</td><td>44g</td></tr>
+            <tr><td>Weight loss, aggressive deficit</td><td>1.10g/lb</td><td>193g</td><td>48g</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><em>Notice how advanced muscle building and aggressive weight loss both require the same high protein intake (~1.1g/lb). In both cases, you're pushing your body hard and need extra protein to either build new muscle or preserve existing muscle.</em></p>
+
+      <h3>Visual: Daily Protein by Scenario (175 lb Person)</h3>
+      <div class="bar-chart">
+        <div class="bar-chart-item"><span class="bar-chart-label">Sedentary</span><div class="bar-chart-track"><div class="bar-chart-fill" style="width:36%"></div></div><span class="bar-chart-value">88g</span></div>
+        <div class="bar-chart-item"><span class="bar-chart-label">Moderate</span><div class="bar-chart-track"><div class="bar-chart-fill" style="width:51%"></div></div><span class="bar-chart-value">123g</span></div>
+        <div class="bar-chart-item"><span class="bar-chart-label">Active</span><div class="bar-chart-track"><div class="bar-chart-fill" style="width:58%"></div></div><span class="bar-chart-value">140g</span></div>
+        <div class="bar-chart-item"><span class="bar-chart-label">Muscle Building</span><div class="bar-chart-track"><div class="bar-chart-fill bar-chart-fill--green" style="width:72%"></div></div><span class="bar-chart-value">175g</span></div>
+        <div class="bar-chart-item"><span class="bar-chart-label">Advanced Muscle</span><div class="bar-chart-track"><div class="bar-chart-fill bar-chart-fill--green" style="width:79%"></div></div><span class="bar-chart-value">193g</span></div>
+        <div class="bar-chart-item"><span class="bar-chart-label">Weight Loss</span><div class="bar-chart-track"><div class="bar-chart-fill bar-chart-fill--blue" style="width:72%"></div></div><span class="bar-chart-value">175g</span></div>
+        <div class="bar-chart-item"><span class="bar-chart-label">Aggressive Cut</span><div class="bar-chart-track"><div class="bar-chart-fill bar-chart-fill--red" style="width:79%"></div></div><span class="bar-chart-value">193g</span></div>
+      </div>
+    </section>
+
+    <!-- Protein Guide -->
+    <section class="content-section">
+      <h2>How Much Protein Do You Need?</h2>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Activity Level</th><th>Grams per lb</th><th>Example (150 lb person)</th></tr></thead>
+          <tbody>
+            <tr><td>Sedentary</td><td>0.36-0.5g</td><td>54-75g</td></tr>
+            <tr><td>Light Activity</td><td>0.5-0.7g</td><td>75-105g</td></tr>
+            <tr><td>Moderate Exercise</td><td>0.6-0.8g</td><td>90-120g</td></tr>
+            <tr><td>Active/Weight Training</td><td>0.7-1.0g</td><td>105-150g</td></tr>
+            <tr><td>Athlete/Intense</td><td>0.8-1.2g</td><td>120-180g</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+    <!-- High Protein Foods -->
+    <section class="content-section">
+      <h2>High Protein Foods</h2>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Food</th><th>Serving</th><th>Protein</th></tr></thead>
+          <tbody>
+            <tr><td>Chicken Breast</td><td>4 oz</td><td>31g</td></tr>
+            <tr><td>Ground Beef (93% lean)</td><td>4 oz</td><td>23g</td></tr>
+            <tr><td>Salmon</td><td>4 oz</td><td>25g</td></tr>
+            <tr><td>Eggs</td><td>2 large</td><td>12g</td></tr>
+            <tr><td>Greek Yogurt</td><td>1 cup</td><td>17g</td></tr>
+            <tr><td>Cottage Cheese</td><td>1 cup</td><td>28g</td></tr>
+            <tr><td>Whey Protein</td><td>1 scoop</td><td>25g</td></tr>
+            <tr><td>Tofu</td><td>4 oz</td><td>9g</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Macro Breakdown: Chicken Breast (4 oz)</h3>
+      <div class="comparison-bar">
+        <div class="comparison-bar-track">
+          <div class="comparison-bar-segment comparison-bar-segment--protein" style="flex:80">80%</div>
+          <div class="comparison-bar-segment comparison-bar-segment--fat" style="flex:20">20%</div>
+        </div>
+        <div class="comparison-bar-legend">
+          <span class="legend-protein">Protein (31g)</span>
+          <span class="legend-fat">Fat (3.6g)</span>
+        </div>
+      </div>
+    </section>
+    
+    <!-- FAQ -->
+    <section class="content-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">How much protein do I need to build muscle?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>For muscle building, aim for <strong>0.7-1.0g of protein per pound of body weight</strong>. Research shows 0.8g/lb is sufficient for most people, but going up to 1g/lb provides a margin of safety. More isn't necessarily better once you reach this threshold. Use our <a href="/#panel-muscle">Muscle Building Calculator</a> for a personalized recommendation based on your training experience. For a deeper dive, read our guide on <a href="/blog/protein-calculator-for-muscle/">protein for muscle building</a>.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Should I eat more protein when losing weight?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>Yes! Higher protein intake during a calorie deficit helps preserve muscle mass. Aim for <strong>1.0-1.2g per pound</strong> during weight loss. This is higher than maintenance needs because your body is more likely to break down muscle for energy when in a deficit. The <a href="/#panel-loss">Weight Loss Calculator</a> adjusts for your deficit size. Learn more in our <a href="/blog/protein-for-weight-loss/">protein for weight loss guide</a>.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Can I eat too much protein?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>For healthy individuals, protein intake up to 1.5g/lb is safe. However, eating more than 1.2g/lb rarely provides additional benefits for muscle building. Excess protein is converted to energy or stored, not automatically turned into muscle. People with kidney disease should consult their doctor about protein limits.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Does protein timing matter?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>Total daily protein matters most. However, spreading protein across 3-5 meals (25-40g each) may slightly optimize muscle protein synthesis. Eating protein within a few hours of training can help, but the "anabolic window" is wider than once thought. Use our <a href="/#panel-meal">Per Meal Calculator</a> to plan your protein distribution. See our guide on <a href="/blog/best-time-to-eat-protein/">best time to eat protein</a> for more details.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Should I calculate protein based on body weight or lean mass?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>Using <strong>lean body mass (LBM)</strong> is more accurate, especially if you're overweight. Fat tissue doesn't require protein like muscle does. If you don't know your LBM, using total body weight works fine—just aim for the lower end of the range if you have higher body fat. Our <a href="/#panel-muscle">Muscle Building Calculator</a> includes an LBM option for more precise calculations.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">What are the best high-protein foods?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>The best protein sources are <strong>complete proteins</strong> containing all essential amino acids: chicken breast (31g/4oz), salmon (25g/4oz), eggs (6g each), Greek yogurt (17g/cup), and cottage cheese (28g/cup). For plant-based options, combine legumes with grains or try tofu, tempeh, and edamame. Check our comprehensive <a href="/blog/high-protein-foods-list/">high-protein foods list</a> for more options.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How do I get enough protein as a vegetarian or vegan?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>Vegetarians can rely on eggs, dairy, and plant sources. Vegans should combine protein sources throughout the day: legumes (lentils, chickpeas, black beans), soy products (tofu, tempeh, edamame), seitan, quinoa, and nuts/seeds. Consider aiming 10-15% higher than calculated since some plant proteins have lower bioavailability. A quality plant protein powder can help fill gaps. Read our guide on <a href="/blog/vegan-protein-sources/">vegan protein sources</a> for meal ideas.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Do I need protein supplements or powder?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>Protein supplements are <strong>convenient but not necessary</strong>. If you can hit your daily target with whole foods, you don't need powder. Supplements become useful when: you have very high protein needs (180g+), you're in a rush post-workout, or you struggle to eat enough whole food. Whey protein is well-researched and effective. Casein is slower-digesting (good before bed). Plant proteins work too but may need slightly higher doses. See our <a href="/blog/whey-vs-plant-protein/">whey vs plant protein comparison</a>.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How much protein can your body absorb at once?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>Your body can <strong>absorb virtually unlimited protein</strong> at once—the old "30g limit" is a myth. However, muscle protein synthesis maxes out around 25-40g per meal for most people. Eating more won't hurt you, but the extra protein gets used for energy rather than building muscle. For optimal muscle building, spread protein across 3-5 meals rather than cramming it into one or two.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Do older adults need more protein?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>Yes. Research suggests adults over 50-60 may benefit from <strong>higher protein intake</strong> (toward the upper end of ranges) due to anabolic resistance—muscles become less responsive to protein with age. Combining adequate protein with resistance training is the best strategy to prevent age-related muscle loss (sarcopenia). Aim for at least 0.6-0.8g/lb and include protein at every meal. Learn more in our guide on <a href="/blog/protein-for-older-adults/">protein for older adults</a>.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Guides -->
+    <section class="content-section">
+      <h2>Related Guides</h2>
+      <p>Dive deeper into protein nutrition with our comprehensive guides:</p>
+      <div class="guide-grid">
+        <a href="/blog/how-much-protein-do-i-need/" class="guide-card"><h4>How Much Protein Do I Need?</h4><p>Complete guide to determining your daily protein requirements based on science.</p></a>
+        <a href="/blog/protein-for-weight-loss/" class="guide-card"><h4>Protein for Weight Loss</h4><p>Why protein is crucial during a diet and strategies to preserve muscle.</p></a>
+        <a href="/blog/protein-calculator-for-muscle/" class="guide-card"><h4>Protein for Muscle Building</h4><p>Optimize protein intake for maximum muscle growth and recovery.</p></a>
+        <a href="/blog/high-protein-foods-list/" class="guide-card"><h4>High-Protein Foods List</h4><p>Protein-rich foods with exact amounts per serving.</p></a>
+        <a href="/blog/best-time-to-eat-protein/" class="guide-card"><h4>Best Time to Eat Protein</h4><p>When to eat protein for optimal results.</p></a>
+        <a href="/blog/vegan-protein-sources/" class="guide-card"><h4>Vegan Protein Sources</h4><p>Meeting protein needs on a plant-based diet.</p></a>
+      </div>
+      <p style="margin-top:1.5rem;text-align:center"><a href="/blog/">View All Guides &rarr;</a></p>
+    </section>
+
+    <!-- Pro Tips -->
+    <section class="content-section">
+      <h2>Pro Tips for Hitting Your Protein Goals</h2>
+      <div class="guide-grid">
+        <div class="callout-box callout-box--tip">
+          <h4>Prep Protein in Batches</h4>
+          <p>Cook chicken, beef, or eggs in bulk on Sundays. Having ready-to-eat protein in the fridge makes hitting your daily target much easier.</p>
+        </div>
+        <div class="callout-box callout-box--tip">
+          <h4>Start Breakfast Strong</h4>
+          <p>Front-load protein at breakfast. Eggs, Greek yogurt, or a protein shake can easily add 25-40g to start your day.</p>
+        </div>
+        <div class="callout-box callout-box--tip">
+          <h4>Stack Your Snacks</h4>
+          <p>Keep high-protein snacks accessible: beef jerky (10g/oz), string cheese (7g), Greek yogurt cups (12-17g), or protein bars.</p>
+        </div>
+        <div class="callout-box callout-box--tip">
+          <h4>Use the "Protein First" Rule</h4>
+          <p>Choose your protein source first, then add carbs and fats around it. Plan around your most important macro.</p>
+        </div>
+        <div class="callout-box callout-box--tip">
+          <h4>Track for 2 Weeks, Then Estimate</h4>
+          <p>Use a food tracking app for 2 weeks to learn portion sizes. After that, you can estimate accurately without tracking forever.</p>
+        </div>
+        <div class="callout-box callout-box--tip">
+          <h4>Weekly Average Matters Most</h4>
+          <p>Don't stress about hitting your exact target every day. Your body responds to weekly averages. Consistency matters more than perfection.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Last Updated -->
+    <section class="content-section" style="text-align:center;padding-top:1rem;border-top:1px solid var(--color-border)">
+      <p style="margin:0;font-size:0.85rem;color:var(--color-text-muted)">
+        <strong>Last updated:</strong> January 2026 | <a href="/about/" style="color:var(--color-text-muted)">Learn more about our methodology</a> | <a href="/contact/" style="color:var(--color-text-muted)">Report an issue</a>
+      </p>
+    </section>
+  </div></main>
+
+  <footer class="footer"><div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="/" class="logo"><svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2c-4 0-8 2-8 6v8c0 4 4 6 8 6s8-2 8-6V8c0-4-4-6-8-6z"/></svg><span>Protein Calculator</span></a><p>Free protein intake calculator for health and fitness.</p></div>
+      <div class="footer-nav"><h4>Calculators</h4><ul><li><a href="/">Daily Protein</a></li><li><a href="/#panel-muscle">Muscle Building</a></li><li><a href="/#panel-loss">Weight Loss</a></li><li><a href="/#panel-meal">Per Meal</a></li></ul></div>
+      <div class="footer-nav"><h4>Guides</h4><ul><li><a href="/blog/how-much-protein-do-i-need/">How Much Protein?</a></li><li><a href="/blog/protein-for-weight-loss/">Protein for Weight Loss</a></li><li><a href="/blog/protein-calculator-for-muscle/">Protein for Muscle</a></li></ul></div>
+      <div class="footer-nav"><h4>Legal</h4><ul><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2025-2026 Protein Intake Calculator. For informational purposes only.</p></div>
+  </div></footer>
+  <script>
+    document.getElementById('use-lbm')?.addEventListener('change', function() {
+      document.getElementById('lbm-group').style.display = this.checked ? 'block' : 'none';
+    });
+  </script>
+  <script src="/assets/js/calculator.js"></script>
+</body>
+</html>
